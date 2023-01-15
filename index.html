@@ -11,13 +11,34 @@
 <body>
     <!--Cabecera-->
     <header>
-
+        <img src="./img/messi.png" alt="logo de messi">
     </header>
+    <!--Fomulario del usuario-->
     <main>
+        <form action="#">
+            <div class="itemform">
+                <label for="nick">introduce tu nombre: </label>
+                <input type="text" name="nick" id="nick" required>
+            </div>
+            <div class="itemform">
+                <label for="tamano">Tamaño de juego </label>
+                <select name="tamano" id="tamano">
+                    <option value="">--Escoge uno pibe--</option>
+                    <option value="1">4x4</option>
+                    <option value="2">5x5</option>
+                    <option value="3">6x6</option>
+
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Jugar">
+            </div>
+        </form>
 
     </main>
+    <!--pie de pagina-->
     <footer>
-        
+        <p>Practica de formulario con js</p>
     </footer>
     
     
