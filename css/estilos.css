@@ -1,0 +1,19 @@
+body{
+    background-color: #faebd7;
+    font-family: "Rowdies", sans-serif;
+}
+header, footer{
+    text-align: center ;
+    width: 400px;
+    margin: 30px auto 0px auto;
+    font-family: "Rowdies", sans-serif;
+}
+main{
+    width: 400px;
+    margin: 30px auto 0px auto;
+    font-family: "Rowdies", sans-serif;
+
+}
+input{
+    font-family: "Rowdies", sans-serif;
+}
